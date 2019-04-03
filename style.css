@@ -1,6 +1,9 @@
 header {
   background-color: #2c3e50;
 }
+.navbar {
+  margin-bottom: 0;
+}
 .mt-20 {
   margin-top: 20px;
 }
@@ -38,9 +41,16 @@ header {
   border: 2px solid black;
 }
 /* SECTION WHITE */
-.txt_second {
+.textclassw {
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family:
+}
+.textclassb {
   color: #000;
   font-size: 50px;
+  text-transform: uppercase;
 }
 .img-fluid {
   width: 350px;
@@ -50,9 +60,6 @@ header {
   padding-bottom: 40px;
 }
 /* Lightgreen ABOUT */
-.abouth {
-  font-size: 50px;
-}
 .col-md-6 > .sexyp {
   font-family: lato;
   line-height: 1.5;
@@ -62,6 +69,10 @@ header {
   margin-top: 40px;
   width: 250px;
   height: 50px;
+}
+.bootlogo {
+  width: 120px;
+  height: 100px;
 }
 /* WHITE CONTACT ME */
 .form-group {
