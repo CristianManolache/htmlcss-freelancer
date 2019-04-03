@@ -10,20 +10,31 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="row nav">
-          <nav>
-            <div class="col-md-6">
-              <h1>Start Bootstrap</h1>
-            </div>
-            <div class="col-md-6 text-center">
-              <a href="#">Portfolio</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-            </div>
-          </nav>
-        </div>
-      </div>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     </header>
     <section class="lightgreen">
       <div class="container">
@@ -44,32 +55,32 @@
             <h2 class="txt_second">Portfolio</h2>
             <hr class="star-light2"></hr>
           </div>
-          <div class="col-md-4 col-md-offset-0">
+          <div class="col-md-4">
             <div class="portimg">
               <img class="img-fluid" src="img/cabin.png" alt="">
             </div>
           </div>
-          <div class="col-md-4 col-md-offset-0">
+          <div class="col-md-4">
             <div class="portimg">
               <img class="img-fluid" src="img/cake.png" alt="">
             </div>
           </div>
-          <div class="col-md-4 col-md-offset-0">
+          <div class="col-md-4">
             <div class="portimg">
               <img class="img-fluid" src="img/circus.png" alt="">
             </div>
           </div>
-          <div class="col-md-4 col-md-offset-0">
+          <div class="col-md-4">
             <div class="portimg">
               <img class="img-fluid" src="img/game.png" alt="">
             </div>
           </div>
-          <div class="col-md-4 col-md-offset-0">
+          <div class="col-md-4">
             <div class="portimg">
               <img class="img-fluid" src="img/safe.png" alt="">
             </div>
           </div>
-          <div class="col-md-4 col-md-offset-0">
+          <div class="col-md-4">
             <div class="portimg">
               <img class="img-fluid" src="img/submarine.png" alt="">
             </div>
@@ -123,5 +134,48 @@
         </div>
       </div>
     </section>
+    <footer class="footy">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Location</h4>
+            <p>2215 John Daniel Drive Clark, MO 65243</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Around the Web</h4>
+            <ul class="list-inline mt-20">
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-fw fa-google-plus-g"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-fw fa-linkedin-in"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>About Freelancer</h4>
+            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a></p>
+          </div>
+        </div>
+      </div>
+      <section class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <small>Copyright © Cristian Manolache 2019 - Boolean School CLASS #5</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
